@@ -1,0 +1,25 @@
+body,*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 100;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+*{
+    margin: 10px;
+}
+.form{
+    background-color: rgb(167, 164, 164);
+    box-shadow: 10px 10px 10px grey;
+    width: 60vw;
+    text-align: center;
+    
+}
+span{
+    background: rgb(133, 132, 132);
+}

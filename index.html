@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form class="form">
+        <h1>General Form</h1>
+        First Name : <input type="text" name="firs-name" required> <br>
+        Last Name : <input type="text" name="last-name" required> <br>
+        Date of Birth: <input type="date" name="DOB" required><br>
+        Gender: <br> 
+                <input type="radio" name="gender" id="" value="male">Male <br>
+                <input type="radio" name="gender" id="" value="female">Female <br>
+                <input type="radio" name="gender" id="" value="other">Other <br>
+        Email: <input type="email" minlength="5" required> <br>
+        Hobbies: <br>
+                 <input type="checkbox" value="Coding" name="Hobbies" >Coding <br>
+                 <input type="checkbox" value="Sports" name="Hobbies">Sports <br>
+                 <input type="checkbox" value="Music" name="Hobbies">Music <br>
+                 <input type="checkbox" value="Singing" name="Hobbies">Singing <br>
+                 <input type="checkbox" value="Travel" name="Hobbies">Travel <br>
+        Qualification: <select name="qualification" id="" required>
+            <option value="Not selected" name="qualification" >Select</option>
+            <option value="BCA" name="qualification" >BCA</option>
+            <option value="MCA" name="qualification">MCA</option>
+            <option value="BBA" name="qualification">BBA</option>
+            <option value="MBA" name="qualification">MBA</option>
+            <option value="BTECH" name="qualification">BTECH</option>
+            <option value="MTECH" name="qualification">MTECH</option>
+
+        </select> <br>
+
+        <span> Terms & Conditions <input type="checkbox" name="terms" id="" value="Agree" required> I Agree<br> </span> 
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>
+
